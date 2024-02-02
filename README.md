@@ -13,7 +13,7 @@ Paste the provided code into the console and modify the variables according to y
 
 ## Example
  **Edit Tile Values:**
-   - Look for the line: `var e = Math.random() < 0.9 ? 2 : 4;
+   - Look for the line: `var tilevalue` = Math.random() < 0.9 ? 2 : 4;
    - Change the values `2` and `4` to your desired tile values (MUST BE MULTIPLES OF 2)
 
 3. **Understand Probability:**
