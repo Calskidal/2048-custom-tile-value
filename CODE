@@ -1,2 +1,7 @@
-var e = Math.random() < .9 ? 2 : 4;
-//change to desired value, such as "var e = Math.random() < .9 ? 2048 : 4096;
+GameManager.prototype.addRandomTile = function() {
+    if (this.grid.cellsAvailable()) {
+        var tileValue = Math.random() < 0.9 ? 2 : 4; // 90% chance of 2, 10% chance of 4. Customize as needed (must be a multiple of 2)
+        var newTile = new Tile(this.grid.randomAvailableCell(), tileValue);
+        this.grid.insertTile(newTile);
+    }
+}
