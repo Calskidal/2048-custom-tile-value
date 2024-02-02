@@ -23,4 +23,3 @@ Paste the provided code into the console and modify the variables according to y
 4. **Paste and Play:**
    - After editing, paste the code into the browser console and press Enter.
    - Now, when you make a move in the 2048 game, tiles with your specified values will appear based on the customized chances.
-
