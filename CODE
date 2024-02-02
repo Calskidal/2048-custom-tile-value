@@ -1,1 +1,2 @@
 var e = Math.random() < .9 ? 2 : 4;
+//change to desired value, such as "var e = Math.random() < .9 ? 2048 : 4096;
